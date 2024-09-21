@@ -12,6 +12,14 @@
             <RowDefinition Height="*"/>
             <RowDefinition Height="30"/>
         </Grid.RowDefinitions>
-        
+
+        <Grid Background="#bae3e8"></Grid>
+        <Image Source="resource/logotip.jpg" HorizontalAlignment=" Left"> </Image>
+
+        <TextBlock Text="Header" FontSize="30" HorizontalAlignment="Center"
+                   VerticalAlignment="Center"> </TextBlock>
+        <Grid Grid.Row="2" Background="#445c93"> </Grid>
+        <Frame Grid.Row="1"> </Frame>
+       
     </Grid>
 </Window>
