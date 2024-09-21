@@ -23,6 +23,8 @@ namespace GilmianovaTours
         public MainWindow()
         {
             InitializeComponent();
+
+            MainFrame.Navigate(new HotelsPage());   
         }
     }
 }
