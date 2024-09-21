@@ -9,6 +9,6 @@
       Title="HotelsPage">
 
     <Grid>
-        <Button Content="Go!" Height="30" Width=" 175"> </Button>
+        <Button Content="Go!" Height="30" Width=" 175" Click="Button_Click"> </Button>
     </Grid>
 </Page>
