@@ -30,17 +30,19 @@ namespace GilmianovaTours
 
         private void BtnBack_Click(object sender, RoutedEventArgs e)
         {
-            Manager.MainFrame.GoBack(); 
+            Manager.MainFrame.GoBack();
         }
 
         private void MainFrame_ContentRendered(object sender, EventArgs e)
         {
-            if(MainFrame.CanGoBack) {
+            if (MainFrame.CanGoBack)
+            {
                 BtnBack.Visibility = Visibility.Visible;
-        }
+            }
             else
             {
                 BtnBack.Visibility = Visibility.Hidden;
             }
+        }
     }
 }
