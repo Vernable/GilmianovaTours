@@ -24,7 +24,8 @@ namespace GilmianovaTours
         {
             InitializeComponent();
 
-            MainFrame.Navigate(new HotelsPage());   
+            MainFrame.Navigate(new HotelsPage());
+            Manager.MainFrame = MainFrame;
         }
     }
 }
